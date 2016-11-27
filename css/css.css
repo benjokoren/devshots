@@ -1,0 +1,1133 @@
+@font-face {
+    font-family: 'open sans hebrew';
+    src: url('../fonts/opensanshebrew-extrabolditalic-webfont.eot');
+    src: url('../fonts/opensanshebrew-extrabolditalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/opensanshebrew-extrabolditalic-webfont.woff2') format('woff2'),
+         url('../fonts/opensanshebrew-extrabolditalic-webfont.woff') format('woff'),
+         url('../fonts/opensanshebrew-extrabolditalic-webfont.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'open sans hebrewe';
+    src: url('../fonts/opensanshebrew-extrabold-webfont.eot');
+    src: url('../fonts/opensanshebrew-extrabold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/opensanshebrew-extrabold-webfont.woff2') format('woff2'),
+         url('../fonts/opensanshebrew-extrabold-webfont.woff') format('woff'),
+         url('../fonts/opensanshebrew-extrabold-webfont.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'open sans hebrew condensed';
+    src: url('../fonts/opensanshebrewcondensed-extrabold-webfont.eot');
+    src: url('../fonts/opensanshebrewcondensed-extrabold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/opensanshebrewcondensed-extrabold-webfont.woff2') format('woff2'),
+         url('../fonts/opensanshebrewcondensed-extrabold-webfont.woff') format('woff'),
+         url('../fonts/opensanshebrewcondensed-extrabold-webfont.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'open sans hebrew condens';
+    src: url('../fonts/opensanshebrewcondensed-extrabolditalic-webfont.eot');
+    src: url('../fonts/opensanshebrewcondensed-extrabolditalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/opensanshebrewcondensed-extrabolditalic-webfont.woff2') format('woff2'),
+         url('../fonts/opensanshebrewcondensed-extrabolditalic-webfont.woff') format('woff'),
+         url('../fonts/opensanshebrewcondensed-extrabolditalic-webfont.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'open sans hebrew condense';
+    src: url('../fonts/opensanshebrewcondensed-bolditalic-webfont.eot');
+    src: url('../fonts/opensanshebrewcondensed-bolditalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/opensanshebrewcondensed-bolditalic-webfont.woff2') format('woff2'),
+         url('../fonts/opensanshebrewcondensed-bolditalic-webfont.woff') format('woff'),
+         url('../fonts/opensanshebrewcondensed-bolditalic-webfont.ttf') format('truetype');
+    font-weight: 700;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'open sans hebrew condensed';
+    src: url('../fonts/opensanshebrewcondensed-bold-webfont.eot');
+    src: url('../fonts/opensanshebrewcondensed-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/opensanshebrewcondensed-bold-webfont.woff2') format('woff2'),
+         url('../fonts/opensanshebrewcondensed-bold-webfont.woff') format('woff'),
+         url('../fonts/opensanshebrewcondensed-bold-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: 700;
+}
+
+@font-face {
+    font-family: 'open sans hebrew';
+    src: url('../fonts/opensanshebrew-bolditalic-webfont.eot');
+    src: url('../fonts/opensanshebrew-bolditalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/opensanshebrew-bolditalic-webfont.woff2') format('woff2'),
+         url('../fonts/opensanshebrew-bolditalic-webfont.woff') format('woff'),
+         url('../fonts/opensanshebrew-bolditalic-webfont.ttf') format('truetype');
+    font-weight: italic;
+    font-style: 700;
+}
+
+@font-face {
+    font-family: 'open sans hebrew';
+    src: url('../fonts/opensanshebrew-bold-webfont.eot');
+    src: url('../fonts/opensanshebrew-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/opensanshebrew-bold-webfont.woff2') format('woff2'),
+         url('../fonts/opensanshebrew-bold-webfont.woff') format('woff'),
+         url('../fonts/opensanshebrew-bold-webfont.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'open sans hebrew condensed';
+    src: url('../fonts/opensanshebrewcondensed-italic-webfont.eot');
+    src: url('../fonts/opensanshebrewcondensed-italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/opensanshebrewcondensed-italic-webfont.woff2') format('woff2'),
+         url('../fonts/opensanshebrewcondensed-italic-webfont.woff') format('woff'),
+         url('../fonts/opensanshebrewcondensed-italic-webfont.ttf') format('truetype');
+    font-weight: 400;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'open sans hebrew condensed';
+    src: url('../fonts/opensanshebrewcondensed-regular-webfont.eot');
+    src: url('../fonts/opensanshebrewcondensed-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/opensanshebrewcondensed-regular-webfont.woff2') format('woff2'),
+         url('../fonts/opensanshebrewcondensed-regular-webfont.woff') format('woff'),
+         url('../fonts/opensanshebrewcondensed-regular-webfont.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'open sans hebrew';
+    src: url('../fonts/opensanshebrew-regular-webfont.eot');
+    src: url('../fonts/opensanshebrew-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/opensanshebrew-regular-webfont.woff2') format('woff2'),
+         url('../fonts/opensanshebrew-regular-webfont.woff') format('woff'),
+         url('../fonts/opensanshebrew-regular-webfont.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'open sans hebrew';
+    src: url('../fonts/opensanshebrew-italic-webfont.eot');
+    src: url('../fonts/opensanshebrew-italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/opensanshebrew-italic-webfont.woff2') format('woff2'),
+         url('../fonts/opensanshebrew-italic-webfont.woff') format('woff'),
+         url('../fonts/opensanshebrew-italic-webfont.ttf') format('truetype');
+    font-weight: 400;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'open sans hebrew condensed';
+    src: url('../fonts/opensanshebrewcondensed-light-webfont.eot');
+    src: url('../fonts/opensanshebrewcondensed-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/opensanshebrewcondensed-light-webfont.woff2') format('woff2'),
+         url('../fonts/opensanshebrewcondensed-light-webfont.woff') format('woff'),
+         url('../fonts/opensanshebrewcondensed-light-webfont.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'open sans hebrew';
+    src: url('../fonts/opensanshebrew-light-webfont.eot');
+    src: url('../fonts/opensanshebrew-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/opensanshebrew-light-webfont.woff2') format('woff2'),
+         url('../fonts/opensanshebrew-light-webfont.woff') format('woff'),
+         url('../fonts/opensanshebrew-light-webfont.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'open sans hebrew condense';
+    src: url('../fonts/opensanshebrewcondensed-lightitalic-webfont.eot');
+    src: url('../fonts/opensanshebrewcondensed-lightitalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/opensanshebrewcondensed-lightitalic-webfont.woff2') format('woff2'),
+         url('../fonts/opensanshebrewcondensed-lightitalic-webfont.woff') format('woff'),
+         url('../fonts/opensanshebrewcondensed-lightitalic-webfont.ttf') format('truetype');
+    font-weight: 200;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'open sans hebrew';
+    src: url('../fonts/opensanshebrew-lightitalic-webfont.eot');
+    src: url('../fonts/opensanshebrew-lightitalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/opensanshebrew-lightitalic-webfont.woff2') format('woff2'),
+         url('../fonts/opensanshebrew-lightitalic-webfont.woff') format('woff'),
+         url('../fonts/opensanshebrew-lightitalic-webfont.ttf') format('truetype');
+    font-weight: 200;
+    font-style: italic;
+}
+
+html {
+  font-family: 'open sans hebrew', 'Arial', sans-serif;
+  line-height: 1.15;
+  direction: rtl;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+    margin: 0;
+    color: #fff;
+    background-image: url(../Images/devshots_bg.png); 
+    background-position: top 100px center;
+}
+
+*:focus {
+    outline: 1px solid #fff;
+}
+
+a {
+    text-decoration: none;
+    transition: all .3s ease-in;
+}
+
+a:hover {
+    transition: all .3s ease-in;
+}
+
+
+/*! my css style */
+
+
+.MenuStrip, .openingContent-strip, .mainArea-strip, .registerStrip, .seetsArea-Strip, .moreInfo-strip, .weWantYou-strip, creditArea-strip {
+    max-width: 1024px;
+    margin: auto;
+}
+
+#floatingMenu {
+    height: 100px;
+    width: 100%;
+    background-color: #fff;
+}
+
+.fixed {
+    box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+    animation: slide-down 0.7s;
+    position: fixed;
+    top: 0;
+    z-index: 99;
+}
+
+@keyframes slide-down {
+    0% {
+        transform: translateY(-100%);
+    } 
+    100% {
+        transform: translateY(0);
+    } 
+}
+
+.MenuStrip {
+    position: relative;
+}
+
+.logoPlace a {
+    background-image: url('../Images/logo.png');
+    background-position: center center;    
+    background-repeat: no-repeat;
+    display: block;
+    width: 290px;
+    height: 61px;
+    position: absolute;
+    top: 10px;
+    left: 0;
+}
+
+button.hamburgerMenu {
+    display: none;
+}
+
+.mainMenu ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.mainMenu ul li {
+    float: right;
+    position: relative;
+
+}
+
+.mainMenu ul li a {
+    display: block;
+    padding: 30px 20px 10px 20px;
+    font-size: 1.2em;
+    color: #000;
+}
+
+.mainMenu ul li a:hover {
+    color: #ff0202;
+}
+
+.is-selected a {
+    color: #eb2d39 !important;
+}
+
+i.fa.fa-star {
+    display: block;
+    color: #ec2e39;
+    position: absolute;
+    top: 9px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 15px;
+}
+
+.openingContent-strip {
+    padding: 160px 15px 283px 15px;
+}
+
+.openingContent-strip h1 {
+    font-size: 2.5em;
+    margin: 0px 0px 10px 0px;
+}
+
+.openingContent-strip p {
+    font-size: 1.4em;
+    margin: 0px;
+    line-height: 40px;
+}
+
+.openingContent-strip a {
+    background-color: #eb2d39;
+    font-size: 1.4em;
+    text-align: center;
+    color: #fff;
+    width: 250px;
+    padding: 12px 0px;
+    outline: 0px;
+    display: block;
+    cursor: pointer;
+    border-bottom: 5px solid #a54146;
+}
+
+.openingContent-strip a:hover {
+    background-color: #a54146;
+    border-bottom: 5px solid #eb2d39;
+}
+
+.openingContent-strip > p:nth-child(4) {
+    padding: 10px 0px 20px 0px;
+}
+
+#mainArea, #seetsArea {
+    background-color: #212229;
+}
+
+.mainArea-strip {
+    padding: 40px 15px 50px 15px;
+}
+
+.MainArea-header h2 {
+    color: #eb2d39;
+    font-size: 2.4em;
+    font-weight: 300;
+    float: right;
+    margin: 0px;
+}
+
+.MainArea-header p {
+    font-size: 1.4em;
+    font-weight: 100;
+    display: block;
+    width: 250px;
+    text-align: center;
+    border: 1px solid #fff;
+    padding: 10px 0px 8px 0px;
+    float: left;
+    margin: 0px;
+}
+
+.topicsArea {
+    padding-top: 40px;
+    max-width: 980px;
+}
+.topicItem {
+    padding: 20px 225px 60px 20px;
+    min-height: 200px;
+    position: relative;
+
+}
+
+.hoverBox {
+    position: absolute;
+    top: 0;
+    background-color: #212229;
+    height: 100%;
+    padding-top: 17px;
+    max-width: 740px;
+    visibility: hidden;
+    opacity: 0;
+    transition: all .3s ease-in;
+}
+
+.topicItem:hover .hoverBox {
+    visibility: visible;
+    opacity: 1;
+    transition: all .3s ease-in;
+}
+
+.topicsArea h2 {
+    margin: 0px;
+}
+
+.topicItem h3 {
+    color: #eb2d39;
+    margin: 5px 0px 20px 0px;
+}
+
+.topicItem p {
+    font-size: 1.2em;
+    margin: 0px 0px 9px 0px;
+    line-height: 28px;
+}
+
+.lacture1 {
+    background-image: url(../Images/lecturer_3.png);
+    background-position: right top;
+    background-repeat: no-repeat;
+}
+
+.lacture2 {
+    background-image: url(../Images/lecturer_1.png);
+    background-position: right top;
+    background-repeat: no-repeat;
+}
+
+.lacture3 {
+    background-image: url(../Images/lecturer_2.png);
+    background-position: right top;
+    background-repeat: no-repeat;
+}
+
+.lacture1:hover {
+    background-image: url(../Images/lecturer_3_hover.png);
+}
+
+.lacture2:hover {
+    background-image: url(../Images/lecturer_1_hover.png);
+}
+
+.lacture3:hover {
+    background-image: url(../Images/lecturer_2_hover.png);
+}
+
+.lacture1, .lacture2, .lacture3 {
+	transition: all .3s ease-in;
+}
+
+.lacture1:hover, .lacture2:hover, .lacture3:hover {
+    transition: all .3s ease-in;
+}
+
+#registerArea, #moreInfo-Area, footer {
+    background-color: #101115;
+}
+
+.registerStrip {
+    padding: 50px 15px;
+    display: flex;
+    justify-content: space-between;
+    flex-flow: wrap;
+}
+
+.registerRightBox {
+    max-width: 421px;
+}
+
+.registerHeader h4 {
+    font-size: 2.6em;
+    font-weight: 100;
+    margin: 0px;
+}
+
+.registerHeader h4 {
+    font-size: 2.6em;
+    font-weight: 100;
+    margin: 0px 0px 12px 0px;
+}
+
+.registerHeader > p:nth-child(3) {
+    font-weight: 100;
+    margin: 20px 0px 20px 0px;
+}
+.registerRightBox form {
+    border-top: 1px solid #6d6d6d;
+    border-bottom: 1px solid #6d6d6d;
+    padding: 16px 0px;
+    margin-bottom: 15px;
+}
+
+.registerFooter p {
+    font-size: 1em;
+    font-weight: 100;
+    line-height: 23px;
+}
+
+.registerRightBox lable {
+    font-weight: 100;
+    font-size: 1.1em;
+    width: 120px;
+    padding-top: 11px;
+    display: block;
+    float: right;
+}
+
+.registerRightBox input {
+    width: 285px;
+    height: 34px;
+    border-top: 3px solid #e0e0e0;
+    border-bottom: 0;
+    border-right: 0;
+    border-left: 0;
+    padding-right: 15px;
+    font-size: 0.9em;
+    font-weight: 100;
+}
+
+.registerRightBox input:hover {
+    background-color: #404040;
+    border-top: 3px solid #616161;
+    transition: all .3s ease-in;
+
+}
+
+.registerRightBox input:focus {
+    background-color: #eb2d39;
+    color: #fff;
+    outline: 3px solid #fff;
+    transition: all .3s ease-in;
+}
+
+.registerRightBox > form > filedset > div {
+    margin-bottom: 20px;
+}
+
+.registerRightBox button {
+    background-color: #eb2d39;
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+    font-size: 1.4em;
+    color: #fff;
+    line-height: 0;
+    float: left;
+    width: 301px;
+    height: 50px;
+    padding-top: 7px;
+    cursor: pointer;
+    border-bottom: 5px solid #a54146;
+    transition: all .3s ease-in;
+}    
+
+.registerRightBox button:hover {
+    background-color: #a54146;
+    border-bottom: 5px solid #eb2d39;
+    transition: all .3s ease-in;
+}
+
+.registerLeftBox {
+    padding-top: 10px;
+}
+
+.registerLeftBox ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.registerLeftBox ul li {
+    font-size: 1.3em;
+    font-weight: 100;
+    display: block;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    position: relative;
+    width: 210px;
+}
+
+.wrItem {
+    background-color: #fff;
+    color: #000;
+    margin-right: -130px;
+}
+
+.blItem {
+    background-color: #2c5770;
+    text-align: left;
+}
+
+.wrItem:after {
+    content: "";
+    display: block;
+    position: absolute;
+    right: -10px;
+    bottom: 10px;
+    width: 0;
+    height: 0;
+    border-bottom: 22px solid #fff;
+    border-right: 14px solid transparent;
+}
+
+.blItem:after {
+    content: "";
+    display: block;
+    position: absolute;
+    left: -10px;
+    bottom: 10px;
+    width: 0;
+    height: 0;
+    border-bottom: 22px solid #2c5770;
+    border-left: 14px solid transparent;
+}
+
+
+
+
+
+.seetsArea-Strip, .moreInfo-strip {
+    padding: 50px 15px;
+}
+
+.seetAreaBoxRight h5, .moreInfo-strip h5 {
+    font-size: 2.6em;
+    font-weight: 100;
+    margin: 0px 0px 12px 0px;
+}
+
+.seetAreaBoxRight > p:nth-child(2) {
+    font-weight: 100;
+    display: block;
+    padding: 5px;
+    max-width: 224px;
+    margin-bottom: 20px;
+    text-align: center;
+    background-color: #8e8e8e;
+}
+
+.seetAreaBoxRight > p:nth-child(3) {
+    font-size: 1.5em;
+    margin-bottom: 5px;
+}
+
+.seetAreaBoxRight > p:nth-child(4) {
+    font-size: 1em;
+    font-weight: 100;
+}
+
+.seetAreaBoxRight ul {
+    list-style: none;
+    margin: 10px 0px;
+    padding: 15px 0px 10px 0px;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    max-width: 380px;
+}
+.seetAreaBoxRight ul li {
+    display: inline-block;
+    font-size: 1em;
+    font-weight: 100;
+    width: 172px;
+    margin-left: 15px;
+}
+
+.seetAreaBoxRight ul li span {
+    float: left;
+    font-size: 2.5em;
+    margin-top: -22px;
+}
+
+.seetAreaBoxRight > p:nth-child(6) {
+    font-size: 1.5em;
+    margin-bottom: 15px;
+    padding: 5px 0px 13px 0px;
+    max-width: 380px;
+    border-bottom: 1px solid;
+}
+
+.seetAreaBoxRight {
+    float: right;
+}
+
+.seetAreaBoxLeft {
+    width: 360px;
+    height: 360px;
+    float:left;
+}
+
+footer {
+    color: #ccc;
+}
+.moreInfo-strip ul {
+    list-style: none;
+    padding: 0px;
+    margin: 50px 0px 0px 0px;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-between;
+}
+
+.moreInfo-strip ul li {
+    max-width: 165px;
+    padding: 0px 15px;
+}
+
+a.infoBox {
+    display: block;
+    width: 165px;
+    height: 165px;
+}
+
+a.infoBox:hover {
+    -webkit-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    transform: scale(0.8);
+}
+
+.moreInfo-strip h6 {
+    font-size: 1.4em;
+    font-weight: 100;
+    margin: 20px 0px 10px 0px;
+}
+
+.moreInfo-strip p {
+    font-size: 1em;
+    font-weight: 100;
+    line-height: 22px;
+}
+
+.fb {
+    background-image: url(../Images/c1.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.ux {
+    background-image: url(../Images/c2.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.ui {
+    background-image: url(../Images/c3.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.mc {
+    background-image: url(../Images/c4.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.fed {
+    background-image: url(../Images/c5.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.weWantYou-Area {
+    border-top: 1px solid #2a2a2a;
+}
+
+.weWantYou-strip {
+    padding: 30px 15px 50px 15px;
+}
+
+.weWantYou-strip h5 {
+    display: block;
+    font-size: 2.6em;
+    font-weight: 100;
+    float: right;
+    margin: 0px 0px 0px 20px;
+}
+
+.weWantYou-strip p {
+    font-size: 0.9em;
+    line-height: 20px;
+    padding-top: 3px;
+}
+
+.creditArea {
+    background-color: #2a2a2a;
+}
+
+.creditArea-strip {
+    padding: 40px 15px;
+    position: relative;
+    max-width: 1020px;
+    margin: auto;
+}
+
+a.netcraftLogo {
+    display: block;
+    width: 114px;
+    height: 22px;
+    background-image: url(../Images/netcraft-logo.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    float: left;
+}
+
+.creditArea a {
+    color: #ccc;
+}
+
+.creditArea a:hover {
+    color: #ec2e39;
+}
+
+.creditArea ul {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+.creditArea ul li {
+    float: right;
+    font-size: 0.9em;
+    padding: 0px 8px;
+    border-right: 1px solid;
+    line-height: 1;
+}
+
+.creditArea ul li:first-child {
+    padding-right: 0;
+    border-right: none;
+}
+
+a.backTotop {
+    display: block;
+    width: 85px;
+    height: 30px;
+    position: absolute;
+    right: 15px;
+    top: -30px;
+    text-align: center;
+    font-size: 2.6em;
+    color: #fbcf61;
+    background-color: #2a2a2a;
+}
+
+i.fa.fa-caret-up {
+    display: block;
+    margin-top: -6px;
+}
+
+/* --end of my css style-- */
+
+
+
+/*! normalize.css v5.0.0 | MIT License | github.com/necolas/normalize.css */
+
+article,
+aside,
+footer,
+header,
+nav,
+section {
+  display: block;
+}
+
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+figcaption,
+figure,
+main { /* 1 */
+  display: block;
+}
+
+figure {
+  margin: 1em 40px;
+}
+
+hr {
+  box-sizing: content-box; /* 1 */
+  height: 0; /* 1 */
+  overflow: visible; /* 2 */
+}
+
+pre {
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
+}
+
+abbr[title] {
+  border-bottom: none; /* 1 */
+  text-decoration: underline; /* 2 */
+  text-decoration: underline dotted; /* 2 */
+}
+
+b,
+strong {
+  font-weight: inherit;
+}
+
+b,
+strong {
+  font-weight: bolder;
+}
+
+code,
+kbd,
+samp {
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
+}
+
+dfn {
+  font-style: italic;
+}
+
+mark {
+  background-color: #ff0;
+  color: #000;
+}
+
+small {
+  font-size: 80%;
+}
+
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+audio,
+video {
+  display: inline-block;
+}
+
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+img {
+  border-style: none;
+}
+
+
+svg:not(:root) {
+  overflow: hidden;
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: 'open sans hebrew', 'Arial', sans-serif;
+  font-size: 100%; /* 1 */
+  line-height: 1.15; /* 1 */
+  margin: 0; /* 2 */
+}
+
+button,
+input { /* 1 */
+  overflow: visible;
+}
+
+button,
+select { /* 1 */
+  text-transform: none;
+}
+
+button,
+html [type="button"], /* 1 */
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button; /* 2 */
+}
+
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+
+legend {
+  box-sizing: border-box; /* 1 */
+  color: inherit; /* 2 */
+  display: table; /* 1 */
+  max-width: 100%; /* 1 */
+  padding: 0; /* 3 */
+  white-space: normal; /* 1 */
+}
+
+progress {
+  display: inline-block; /* 1 */
+  vertical-align: baseline; /* 2 */
+}
+
+textarea {
+  overflow: auto;
+}
+
+[type="checkbox"],
+[type="radio"] {
+  box-sizing: border-box; /* 1 */
+  padding: 0; /* 2 */
+}
+
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+
+[type="search"] {
+  -webkit-appearance: textfield; /* 1 */
+  outline-offset: -2px; /* 2 */
+}
+
+
+[type="search"]::-webkit-search-cancel-button,
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+::-webkit-file-upload-button {
+  -webkit-appearance: button; /* 1 */
+  font: inherit; /* 2 */
+}
+
+details, /* 1 */
+menu {
+  display: block;
+}
+
+summary {
+  display: list-item;
+}
+
+canvas {
+  display: inline-block;
+}
+
+template {
+  display: none;
+}
+
+[hidden] {
+  display: none;
+}
+/* end of normalize.css v5.0.0 | MIT License | github.com/necolas/normalize.css */
+
+/* core element style */
+
+p {
+    font-size: 1.2em;
+    margin: 0px 0px 9px 0px;
+    line-height: 26px;
+}
+
+.clearFix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+}
+
+@media (max-width: 768px) {
+    img.desktopOn { display: none; }
+    body { background-image: url(../Images/mobile_img.png); background-position: top 35px center;}
+    .openingContent-strip {padding: 150px 15px 170px 15px;text-align: center;}
+    .openingContent-strip a { margin: auto; }
+    .MainArea-header h2, .MainArea-header p {float: none;}
+    .MainArea-header p { margin-top: 10px; }
+    .wrItem { margin-right: -22px; }
+    .seetAreaBoxLeft { width: 300px; height: 300px; }
+    .moreInfo-strip ul { justify-content: flex-start; }
+    .moreInfo-strip ul li { padding: 0px 40px 20px 40px; }
+    .creditArea ul {max-width: 600px;}
+    .creditArea ul li { line-height: 22px; }
+    a.netcraftLogo { margin-top: -8px; }
+
+}
+@media (max-width: 420px) {
+    .logoPlace a { width: 200px; background-size: 200px; left: 10px; top: 6px;}
+    .mainMenu ul { width: 100%; box-sizing: border-box; height: auto; padding: 7px 20px 20px 20px; background-color: #ffffff; border-top: 1px solid #e0e0e0; border-bottom: 1px solid #e0e0e0; position: fixed; top: 80px; display: none; }
+    .mainMenu ul li { float: none; border-bottom: 1px solid #000; }
+    button.hamburgerMenu { font-size: 24px; color: #fff; background-color: #000; padding: 6px 10px 5px 10px; border-radius: 5px; border: none; display: block; position: absolute; top: 20px; right: 15px; }
+    .mainMenu ul.show {display:block;}
+    #floatingMenu { height: 75px; }
+    body { background-image: url(../Images/mobile_img.png); background-position: top 0px center; }
+    .openingContent-strip { padding: 100px 25px 50px 25px; }
+    .topicItem { padding: 220px 10px 60px 10px; background-position: right 10px top; }
+    .MainArea-header h2 { text-align: center; }
+    .MainArea-header p { margin: 15px auto; }
+    .topicsArea h2 { line-height: 30px; }
+    .mainArea-strip { padding-bottom: 0px; }
+    .registerRightBox button, .seetAreaBoxRight { float: none; }
+    .registerLeftBox { margin: auto; }
+    .seetAreaBoxLeft { margin: 30px auto 0px auto; float: none; }
+    .moreInfo-strip h5 { text-align: center; }
+    .moreInfo-strip ul { justify-content: center;}
+    .weWantYou-strip h5 { float: none; margin-bottom: 10px; }
+    a.backTotop { left: 0; right: 0; margin: auto; }
+    .creditArea ul { text-align: center; }
+    .creditArea ul li { float: none; padding: 0px; border: none;}
+    a.netcraftLogo { margin: 15px auto 0px auto; float: none; }
+    .registerRightBox lable { margin: 0px 0px 10px 0px; padding: 0px; }
+    .mainMenu ul li a { padding: 10px 0px 7px 0px; }
+    i.fa.fa-star { top: 15px; right: inherit; }
+}
+
+@media (max-width: 320px) {
+    .registerRightBox input { width: 275px; }
+    .registerRightBox button { width: 291px; }
+    .registerLeftBox { width: 230px; }
+    .seetAreaBoxLeft { width: 280px; height: 280px; }
+}
